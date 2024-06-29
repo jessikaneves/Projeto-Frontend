@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial do E-commerce</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="assets/img/techshop_2.4-removebg-preview.png" alt="Logo da Empresa" class="logo">
+            <div class="nav-buttons">
+                <button id="newUserButton">Sou novo por aqui</button>
+                <button id="loginButton">Já tenho cadastro</button>
+            </div>
+        </header>
+        
+        <div id="formContainer">
+            <!-- Formulário de Cadastro -->
+            <form id="registerForm" class="userForm">
+                <label for="fullName">Nome Completo:</label>
+                
+                <input type="text" id="fullName" >
+               
+                <label for="cep">CEP:</label>
+               
+                <input type="text" id="cep">
+                
+                <label for="registerEmail">Email:</label>
+                
+                <input type="email" id="registerEmail" >
+                
+                <label for="registerPassword">Senha:</label>
+                
+                <input type="password" id="registerPassword" >
+                
+                <button type="submit">Cadastrar</button>
+            </form>
+
+            <!-- Formulário de Login -->
+            <form id="loginForm" class="userForm">
+                <label for="loginEmail">Email:</label>
+                <input type="email" id="loginEmail" >
+                <label for="loginPassword">Senha:</label>
+                <input type="password" id="loginPassword" >
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/script.js"></script>
+</body>
+</html>

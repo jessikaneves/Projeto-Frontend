@@ -1,0 +1,100 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(./img/img.jpg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 270px;
+    height: auto;
+    margin-bottom: 30px; 
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+}
+
+
+.nav-buttons button {
+    padding: 10px 20px;
+    background-color: #f8f6f89c;
+    color: rgb(49, 47, 47);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+
+.nav-buttons button:hover {
+    background-color: #e472e8;
+}
+
+#formContainer {
+    display: flex;
+    justify-content: center-justify;
+    max-width: 35rem;
+    padding: 1rem;
+}
+
+.userForm {
+    display: flex;
+    flex-direction: column;
+    background-color: #e4e2da58;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(5, 5, 5, 0);
+    margin: 0 auto;
+    
+}
+
+.userForm label {
+    margin-top: 10px;
+    text-align: left;
+    display: block;
+    margin-left: 10px;
+    
+}
+
+.userForm input {
+    margin-top: 5px;
+    padding: 10px;
+    width: calc(100% - 20px);
+    border: 1px solid #8e8a8a;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-right: 35px; 
+    
+}
+
+.userForm button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #a39a9a;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.userForm button:hover {
+    background-color: #e472e8;
+}
